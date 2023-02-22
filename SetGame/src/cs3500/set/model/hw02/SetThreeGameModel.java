@@ -103,6 +103,5 @@ public class SetThreeGameModel extends AbstractSetGameModel {
     this.col = 3;
     this.board = this.makeBoard(coppiedDeck);
     this.claimedCards = new ArrayList<>(new ArrayList<>());
-    // should have other fields defined here too?
   }
 }
